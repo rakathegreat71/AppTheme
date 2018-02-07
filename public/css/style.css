@@ -1,0 +1,239 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.5em;
+  font-family: Helvetica;
+
+}
+/* common classes */
+.primary-text{
+  color:#56a79a;
+}
+
+#main-header div{
+  vertical-align: middle;
+}
+
+#main-header{
+  padding: 1em 0;
+}
+
+#main-header a{
+  color:#333;
+}
+
+/* .contianer{
+  margin: auto;
+} */
+#navbar{
+  text-transform: uppercase;
+}
+@media (max-width:767) {
+  /* #raka-brand h1, #brand p{
+    text-align: center;
+  } */
+}
+/* @@media (min-width:768) { */
+  #main-header {
+    text-align: right;
+    border-bottom: 1px #56a79a solid;
+  }
+/* } */
+
+
+#navbar li.current a, #navbar li a:hover{
+  color: #56a79a;
+  border-bottom: 3px #56a79a solid;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+/*
+#main-header .col-xs-12{
+  text-align: center;
+} */
+
+#main-header #navbar ul{
+  list-style: none;
+}
+#main-header #navbar li{
+  padding-right: 20px;
+  display: inline;
+  text-decoration: none;
+}
+
+#showcase .row{
+  height: 600px;
+  margin-left: 0px;
+}
+
+#showcase .row{
+  margin-right: 0;
+  background:#333 url("https://static.pexels.com/photos/6564/black-and-white-iphone-smartphone-desk.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px #56a79a solid;
+  margin-bottom:30px;
+}
+
+#showcase div div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  vertical-align:middle;
+  /* opacity: 1; */
+}
+.showcase-content{
+  background-color: #333;
+  padding: 40px;
+  border-radius: 90px;
+  opacity: .9;
+  color:#fff;
+}
+.showcase-content h1{
+  font-size: 50px;
+}
+
+/* #features .fas{
+  color: #56a79a;
+} */
+#features div{
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+#info div{
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+
+.about div{
+  text-align: center;
+}
+
+.services div{
+  text-align: center;
+}
+#info{
+  margin-right: 0;
+  background:#333 url("https://static.pexels.com/photos/9045/pexels-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode:soft-light;
+  border: 1px #56a79a solid;
+  margin-bottom:30px;
+  /* opacity: .6; */
+  color: #fff;
+}
+ #info #core-list{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  line-height: 2em;
+  text-align: center;
+  /* vertical-align: bottom; */
+}
+
+/* company */
+#company{
+  background: #333;
+  color:#fff;
+  padding: 10px 0;
+  line-height: 2em;
+}
+
+#company h4{
+text-decoration: underline;
+color:#36a79a;
+}
+
+/* footer */
+#main-footer{
+  background-color: #36a79a;
+  color:#fff;
+}
+
+/* services */
+.services ul li:nth-child(odd){
+  background: #ccc;
+  color: #111;
+  border-radius: 20px;
+  padding:10px;
+}
+
+.services ul li:nth-child(even){
+  background: #56a79a;
+  color: #333;
+  border-radius: 20px;
+  padding:10px;
+
+  /* padding: 0; */
+}
+.services li:nth-child(odd) h3{
+  text-decoration: underline;
+  color:#56a79a;
+}
+
+.services li:nth-child(even) h3{
+  text-decoration: underline;
+  color:#ccc;
+}
+
+
+#subheader{
+  background: #333;
+  color:#fff;
+}
+/* contact */
+.contact{
+  text-align: center;
+  /* background-color: lightgrey; */
+}
+
+.contact form{
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  /* align-items: center; */
+}
+.contact form input[type = "text"]{
+width: 50%;
+height:50px;
+margin-bottom: 10px;
+}
+.contact form input[type = "email"]{
+width: 50%;
+height: 50px;
+margin-bottom: 10px;
+  }
+.contact form textarea{
+width: 50%;
+height: 100px;
+}
+.contact form button{
+  width: 50%;
+  padding:10px 0;
+  border: 0;
+  background: #222;
+  color: white;
+}
+
+.contact form label{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.page-title{
+  padding-top: 30px;
+}
